@@ -55,7 +55,7 @@ TARGET = $(MCU)-$(MAIN)
 
 
 # List C source files here. (C dependencies are automatically generated.)
-SRC = $(MAIN).c i2c.c
+SRC = $(MAIN).c i2c.c encoder.c
 
 
 # List Assembler source files here.
